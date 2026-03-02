@@ -1,7 +1,10 @@
 # skill-copilot-review
 
-> **other skills by [@yigitkonur](https://github.com/yigitkonur):**
-> [testing mcp servers](https://github.com/yigitkonur/skill-mcp-server-tester) · [extracting design dna from dashboards](https://github.com/yigitkonur/skill-design-soul-saas) · [converting saved webpages to next.js](https://github.com/yigitkonur/skill-snapshot-to-nextjs) · [generating greptile review config](https://github.com/yigitkonur/skill-greptile-init) · [generating devin review config](https://github.com/yigitkonur/skill-devin-review-init) · [reviewing mcp-use python apps](https://github.com/yigitkonur/skill-mcp-use) · [tauri observability & mcp bridge](https://github.com/yigitkonur/skill-tauri-mcp) · [mcp server for searching skills](https://github.com/yigitkonur/mcp-skills-as-context)
+```bash
+npx skills add yigitkonur/skill-copilot-review
+```
+
+> [devin review setup](https://github.com/yigitkonur/skill-devin-review-init) · [greptile review setup](https://github.com/yigitkonur/skill-greptile-init) · [mcp server testing](https://github.com/yigitkonur/skill-mcp-server-tester) · [mcp-use code review](https://github.com/yigitkonur/skill-mcp-use) · [design dna extraction](https://github.com/yigitkonur/skill-design-soul-saas) · [snapshot to nextjs](https://github.com/yigitkonur/skill-snapshot-to-nextjs) · [tauri mcp tools](https://github.com/yigitkonur/skill-tauri-mcp)
 
 a claude code skill that generates `.github/copilot-instructions.md` and multiple `.github/instructions/*.instructions.md` micro-files for [github copilot](https://github.com/features/copilot) code review. analyzes your codebase and writes focused, path-specific review rules scoped via `applyTo` frontmatter — each file tuned to your actual stack, patterns, and architecture.
 
@@ -105,14 +108,6 @@ our copilot reviews keep missing security issues, fix the instructions
 **built for:** any git repository that uses [github copilot code review](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review). generates `copilot-instructions.md` and micro `*.instructions.md` files tailored to your actual codebase patterns.
 
 **not for:** repos not using copilot for code review. for greptile, use [skill-greptile-init](https://github.com/yigitkonur/skill-greptile-init). for devin, use [skill-devin-review-init](https://github.com/yigitkonur/skill-devin-review-init).
-
-## install
-
-```bash
-npx skills add yigitkonur/skill-copilot-review
-```
-
-> works with claude code, cursor, codex, copilot, windsurf, and [30+ other agents](https://skills.sh).
 
 ## license
 
