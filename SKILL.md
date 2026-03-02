@@ -1,6 +1,10 @@
 ---
 name: copilot-review-init
-description: "Generate GitHub Copilot code review instruction files — a root copilot-instructions.md plus many micro *.instructions.md files with applyTo scoping. Analyzes the repository's tech stack, architecture, and team patterns to produce focused, path-specific review rules that stay within Copilot's 4,000-character processing limit. Use this skill whenever someone wants to set up Copilot code review, create or improve review instructions, configure Copilot for a new or existing repo, or mentions 'copilot review', 'code review instructions', 'copilot-instructions', '.instructions.md', or wants better automated PR reviews — even if they just say 'set up code review' or 'make Copilot review smarter'."
+description: "Generate copilot-instructions.md and micro *.instructions.md files for GitHub Copilot code review. Analyzes your codebase and writes focused, path-specific review rules scoped via applyTo frontmatter. Use when setting up or improving Copilot code review instructions."
+license: MIT
+metadata:
+  author: yigitkonur
+  version: "1.0"
 ---
 
 # Copilot Review Init
